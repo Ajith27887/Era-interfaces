@@ -1,0 +1,60 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 2500px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.card h1 {
+    text-align: center;
+    color: white;
+}
+
+.material-icons {
+    float: right;
+    cursor: pointer;
+}
+
+.street {
+    margin-right: 20px;
+}
+
+button {
+    font-weight: bolder;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+.buttons-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media(max-width:992px) {
+    .buttons-list {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width:576px) {
+    .buttons-list {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
